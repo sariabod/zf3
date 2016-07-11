@@ -16,7 +16,6 @@ return [
         'factories' => [
             Model\PostRepository::class => InvokableFactory::class,
             Model\ZendDbSqlRepository::class => Factory\ZendDbSqlRepositoryFactory::class,
-            Model\PostCommand::class => InvokableFactory::class,
             Model\ZendDbSqlCommand::class => Factory\ZendDbSqlCommandFactory::class,
         ],
     ],
